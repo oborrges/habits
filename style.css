@@ -7,13 +7,7 @@
 body {
     background: #09090A;
     height: 100vh;
-}
-
-header {
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
-  padding: 48px;
+    color: white;
 }
 
 button {
@@ -36,6 +30,46 @@ button {
 button:hover {
     background-color: #18181B;
     border: 2px solid #8B5CF6;
+}
+
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+form {
+    display: flex;
+}
+
+.month {
+    display: flex;
+}
+
+.days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.day div {
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: #A1A1AA;
+
+    margin-bottom: 8px;
+
+    text-align: center;
 }
 
 input {
