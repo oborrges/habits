@@ -28,8 +28,8 @@ button {
 }
 
 button:hover {
-    background-color: #18181B;
-    border: 2px solid #8B5CF6;
+    background: #8a5cf63a;
+    border: 2px solid #a78bfa4d;
 }
 
 header {
@@ -80,6 +80,11 @@ input {
     background: #18181B;
     border: 2px solid #27272A;
     border-radius: 8px;
+}
+
+input:hover {
+    background: #8a5cf63a;
+    border: 2px solid #a78bfa4d;    
 }
 
 input:checked {
