@@ -16,11 +16,9 @@ button {
     border-radius: 8px;
     background-color: transparent;
     color: white;
-
     display: flex;
     align-items: center;
     gap: 12px;
-
     font-family: 'Inter';
     font-weight: 600;
     font-size: 16px;
@@ -37,10 +35,28 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 48px;
+  gap: 10px;
 }
 
-form {
+#form-habits {
     display: flex;
+    padding: 0 48px;
+}
+
+.habits {
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.habit {
+    width: 64px;
+    height: 64px;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .month {
@@ -66,9 +82,7 @@ form {
     font-size: 20px;
     line-height: 125%;
     color: #A1A1AA;
-
     margin-bottom: 8px;
-
     text-align: center;
 }
 
